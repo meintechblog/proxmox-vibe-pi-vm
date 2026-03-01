@@ -98,6 +98,7 @@ Serial mode is also available for pure headless setups.
 - `docs/TROUBLESHOOTING.md` – fixes for common issues
 - `docs/ARCHITECTURE.md` – x86 VM vs Raspberry Pi explanation
 - `docs/EXAMPLE_CONFIG.md` – exact profile used in the blog/video prep
+- `docs/BLOG_SNIPPET_DE.md` – ready-to-use text snippets for blog/video
 
 ---
 
