@@ -44,16 +44,16 @@ chmod +x scripts/*.sh
 ./scripts/create-vm.sh \
   --vmid 126 \
   --name vibe-pi-x86 \
-  --ip-cidr 192.168.3.126/24 \
-  --gateway 192.168.3.1 \
-  --ci-user joerg \
+  --ip-cidr 192.168.1.100/24 \
+  --gateway 192.168.1.1 \
+  --ci-user <your-user> \
   --ci-password 'CHANGE_ME_NOW'
 ```
 
 After first boot:
 
 ```bash
-ssh joerg@192.168.3.126
+ssh <your-user>@<vm-ip>
 sudo ./scripts/postinstall-dev.sh
 ```
 
